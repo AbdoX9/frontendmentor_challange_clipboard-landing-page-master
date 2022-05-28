@@ -174,7 +174,7 @@ p {
     line-height: 1.6;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 930px) {
     .features {
         padding-top: 0;
     }
@@ -362,6 +362,14 @@ p {
     color: var(--NeutralDarkGrayishBlue);
 }
 
+.footer .container .footerInfo span {
+    cursor: pointer;
+}
+
+.footer .container .footerInfo span:hover {
+    color: var(--PrimaryStrongCyan);
+}
+
 .footer .container .social {
     display: flex;
     gap: 20px;
@@ -370,6 +378,7 @@ p {
 .footer .container .social img {
     max-width: 100%;
     width: 20px;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {
